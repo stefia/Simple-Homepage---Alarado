@@ -130,10 +130,7 @@ body {
 }
 
 .home {
-    background-image: url(resources/hero-image-simple-homepage.png);
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: 50%;
+    background: url(resources/hero-image-simple-homepage.png) right center/50% no-repeat;
 }
 
 .home__promo {
@@ -194,6 +191,7 @@ body {
     }
     .home {
         background-position: top center;
+        background-size: 70%;
     }
     .home__promo {
         padding-top: 300px;
@@ -203,7 +201,7 @@ body {
         font-size: 2.5rem;
     }
     .text--sm-bd {
-        font-size: 2rem;
+        font-size: 0.875rem;
     }
     .home__header-menu { 
         display: none; 
