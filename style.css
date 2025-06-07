@@ -203,6 +203,9 @@ body {
     .text--sm-bd {
         font-size: 0.875rem;
     }
+    .home__header {
+        padding-bottom: 35px;
+    }
     .home__header-menu { 
         display: none; 
     }
