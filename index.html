@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Simple Homepage - Alarado">
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Homepage - Alarado | devChallenges.io</title>
+  </head>
+  <body class="light-mode">
+    <header class="home__header">
+      <div class="home__header-logo">
+        <img id="logo" src="resources/logo-light.svg" alt="Logo">
+      </div>
+      <ul class="home__header-menu">
+        <li class="home__header-menu-item"><a href="#" class="text--sm-bd text--blue-dark active">About us</a></li>
+        <li class="home__header-menu-item"><a href="#" class="text--sm-bd text--gray">Product</a></li>
+        <li class="home__header-menu-item"><a href="#" class="text--sm-bd text--gray">Resource</a></li>
+        <li class="home__header-menu-item"><a href="#" class="text--sm-bd text--gray">Contact</a></li>
+      </ul>
+      <label class="home__header-switch">
+        <input type="checkbox" id="themeSwitcher">
+        <span class="slider">
+        </span>
+      </label>
+      <div id="mobile-menu" class="home__header-mobile">
+        <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+        <label class="burger" for="burger-checkbox"></label>
+        <ul class="home__header-mobile-menu">
+          <li class="home__header-mobile-menu-item"><a href="#" class="text--sm-bd text--blue-dark active">About us</a></li>
+          <li class="home__header-mobile-menu-item"><a href="#" class="text--sm-bd text--gray">Product</a></li>
+          <li class="home__header-mobile-menu-item"><a href="#" class="text--sm-bd text--gray">Resource</a></li>
+          <li class="home__header-mobile-menu-item"><a href="#" class="text--sm-bd text--gray">Contact</a></li>
+        </ul>
+        <label class="home__header-switch mobile-switch">
+          <input type="checkbox" id="themeSwitcherMobile">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+    <main class="home">
+      <div class="home__promo">
+        <p class="home__subheader text--sm-bd">😎 SIMPLE WAY TO COMMUNICATE</p>
+        <h1 class="home__title text--h1">Actions for Accessibility in Design</h1>
+        <p class="home__text text--body text--gray">The fastest way to build and deploy websites with reusable components.</p>
+      </div>
+      <div class="home__buttons">
+        <button class="home__buttons-started text--btn text--white">GET STARTED</button>
+        <a href="#" class="home__buttons-demo text--btn text--blue">Get live demo</a>
+      </div>
+      <div class="home__benefits">
+        <div class="home__benefits-item">
+          <img src="resources/Done_ring_round_fill.svg" alt="Icon" class="home__benefits-item-icon">
+          <p class="home__benefits-item-text text--sm text--gray">No credit card required</p>
+        </div>
+        <div class="home__benefits-item">
+          <img src="resources/Done_ring_round_fill.svg" alt="Icon" class="home__benefits-item-icon">
+          <p class="home__benefits-item-text text--sm text--gray">No software to install</p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
